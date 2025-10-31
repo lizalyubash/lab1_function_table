@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+._*
+
+# Python / venv
+venv/
+ENV/
+.venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+.dist-info/
+
+# Тести та кеші
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# IDE/Editor
+.idea/
+.vscode/
+*.code-workspace
