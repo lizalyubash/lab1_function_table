@@ -1,6 +1,5 @@
 def f(x: float) -> float:
-    """TODO: реалізувати обчислення функції згідно варіанту"""
-    pass
+    return x ** 4 - 5 * x ** 3 - 0.25 * x ** 2 + 2
 
 
 def deriv(f, x: float, h: float = 1e-5) -> float:
