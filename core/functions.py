@@ -1,5 +1,9 @@
+import math
+
+
 def f(x: float) -> float:
-    return x ** 4 - 5 * x ** 3 - 0.25 * x ** 2 + 2
+    """Обчислення функції згідно з варіантом (через math.pow)"""
+    return math.pow(x, 4) - 5 * math.pow(x, 3) - 0.25 * math.pow(x, 2) + 2
 
 
 def deriv(f, x: float, h: float = 1e-5) -> float:
